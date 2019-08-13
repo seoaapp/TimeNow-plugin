@@ -13,7 +13,7 @@ import net.minecraft.server.v1_12_R1.CommandExecute;
 
 public class TimeCommand extends CommandExecute implements Listener, CommandExecutor {
 	
-	public String cmd1 = "Time";
+	public String cmd1 = "time";
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		SimpleDateFormat date = new SimpleDateFormat("yyyy/MM/dd");
